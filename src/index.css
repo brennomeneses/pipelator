@@ -1,7 +1,6 @@
 @import '~antd/dist/antd.css';
 
 body {
-  margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -15,11 +14,19 @@ code {
 }
 
 .App {
-  margin: 10%;
+  padding: 5%;
   text-align: 'center';
 }
 
 .center {
   left: 35%;
   position: absolute;
+}
+
+.footer {
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  text-align: center;
+  position: fixed;
 }
