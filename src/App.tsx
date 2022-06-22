@@ -109,7 +109,7 @@ function App() {
             <b>Super Scalar:</b>
           </p>
           <p>
-          {numsState <= 0 ? ("t") : (resultPipes?.superScalar)} = 4+({numsState <=0 ? ("n") : (numsState)}-2/2)
+          {numsState <= 0 ? ("t") : (resultPipes?.superScalar)} = {numsState <=0 ? ("n") : (numsState)}-2/2
           </p>
         </Card.Grid>
       </Card>
